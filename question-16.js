@@ -17,3 +17,4 @@ console.log(typeof myObject);   // "object"
 console.log(typeof myFunction); // "function"
 console.log(typeof undefined);  // "undefined"
 console.log(typeof null);       // "object" (typeof null은 "object"로 나옵니다. 이는 JavaScript의 버그로 알려져 있습니다.)
+
