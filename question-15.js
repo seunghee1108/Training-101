@@ -21,8 +21,8 @@ if (array) {
 }
 
 
-// * 값이 Falsy이면 조건문은 false로 간주된다.
 
+// * 값이 Falsy이면 조건문은 false로 간주된다.
 // null 및 undefined: null과 undefined는 falsy
 var nullExample = null;
 if (!nullExample) {
@@ -34,3 +34,4 @@ var falseExample = false;
 if (!falseExample) {
     console.log("이 값은 falsy입니다.");
 }
+
