@@ -6,9 +6,7 @@ var MyVariable = 20;
 
 function myFunction() {
   // 함수 내부에서도 동일하게 적용
-
 }
-
 
 // * 객체 속성 및 메서드
 var myObject = {
