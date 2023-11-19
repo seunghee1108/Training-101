@@ -16,7 +16,6 @@ function add(a, b) {
 add(1, /* IntelliSense가 'b' 매개변수에 대한 정보를 표시함 */);
 
 
-
 // * 타입 체크
 // 정적 타입 체크를 수행하는 데 도움을 줌
 /**
@@ -39,4 +38,5 @@ function greet(name) {
 /**
  * 이것은 JSDoc 주석입니다
  */
+
 
