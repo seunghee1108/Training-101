@@ -7,12 +7,10 @@
 "use strict"
 
 
-
 // * 함수 내에서만 엄격 모드를 활성화 
 function myFunction() {
   "use strict";
   
   // 이 함수는 엄격 모드에서 실행됩니다.
-
 }
 
