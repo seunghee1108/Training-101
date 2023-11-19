@@ -29,5 +29,4 @@ function exampleVarScope() {
 
   console.log(a); // 10, 블록 외부에서도 접근 가능 (함수 스코프)
 }
-
-exampleVarScope()
+exampleVarScope();
