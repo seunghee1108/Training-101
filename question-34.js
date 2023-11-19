@@ -9,3 +9,4 @@ const academy = {
 delete academy.name;
 console.log(academy);
 // { address: '대덕대로', number: 182 }
+
