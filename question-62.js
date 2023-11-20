@@ -14,3 +14,5 @@ const str = JSON.stringify(obj);
 
 console.log(str);
 // {"name":"방승희","age":28,"hobbies":["음악감상","산책"],"jobs":null}
+
+
