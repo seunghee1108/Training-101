@@ -12,8 +12,8 @@ mySet.add(3);
 mySet.add(1);
 
 // Set의 크기 출력
-console.log("Set의 크기:", mySet.size); // 출력: 3
+console.log(mySet.size); // 출력: 3
 
 // Set의 모든 값 출력
-console.log("Set의 값들:", mySet); // 출력: Set { 1, 2, 3 }
+console.log(mySet); // 출력: Set { 1, 2, 3 }
 
