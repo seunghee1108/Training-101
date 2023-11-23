@@ -9,11 +9,10 @@ const server = http.createServer((req, res) => {
   res.end('Hello, World!\n');
 });
 
-// 서버 포트 및 호스트 설정
+// 서버 포트 설정
 const port = 3000;
-const host = '127.0.0.1';
 
 // 서버 시작
-server.listen(port, host, () => {
-  console.log(`Server running at http://${host}:${port}/`);
+server.listen(port, () => {
+  console.log(`서버가 http://localhost:${port}/ 에서 실행 중입니다.`);
 });
