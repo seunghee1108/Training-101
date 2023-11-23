@@ -3,5 +3,7 @@
 class EmptyClass {
 
 }
-
 const instanceOfEmptyClass = new EmptyClass();
+
+console.log(instanceOfEmptyClass);
+//EmptyClass {}
