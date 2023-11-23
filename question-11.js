@@ -12,8 +12,6 @@
 function add(a, b) {
   return a + b;
 }
-// VSCode에서 'b' 매개변수에 대한 정보를 표시함
-add(1, /* IntelliSense가 'b' 매개변수에 대한 정보를 표시함 */);
 
 
 // * 타입 체크
@@ -21,7 +19,7 @@ add(1, /* IntelliSense가 'b' 매개변수에 대한 정보를 표시함 */);
 /**
  * @type {number}
  */
-var myNumber = 42;
+const myNumber = 77;
 
 /**
  * @param {string} name - 사용자 이름
