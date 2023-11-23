@@ -14,3 +14,17 @@ function myFunction() {
   // 이 함수는 엄격 모드에서 실행됩니다.
 }
 
+//  use strict 가 적용이 안되는 경우
+// 1. 변수를  use strict 시작행 이전에 작성한 경우
+x = 3.14;
+'use strict';
+// 2. 단순히 {}를 생성한 임의의 블록 구문일 경우
+{
+'use strict';
+x = 3.14;
+}
+// 3. 블록 스코프 내부에서
+for(ii=0; ii<1; ii++){
+	'use strict';
+    x = 3.14;
+}

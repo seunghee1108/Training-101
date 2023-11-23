@@ -9,8 +9,8 @@ console.log(add);
 const minus = a - b;
 console.log(minus);
 
-const mul = a * b ;
-console.log(mul);
+const multiply = a * b ;
+console.log(multiply);
 
-const div = a / b ;
-console.log(div);
+const division = a / b ;
+console.log(division);
