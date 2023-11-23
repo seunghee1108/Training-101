@@ -1,0 +1,47 @@
+<!-- 문제 81번 : Local Storage에 데이터를 저장하고 검색하는 코드를 작성해보세요. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage 예제</title>
+</head>
+<body>
+
+<script>
+  // 데이터 저장 함수
+  function saveToLocalStorage(key, value) {
+    // 로컬 스토리지에 데이터 저장
+    localStorage.setItem(key, JSON.stringify(value));
+  }
+
+  // 데이터 검색 함수
+  function getFromLocalStorage(key) {
+    // 로컬 스토리지에서 주어진 키로 데이터 검색
+    const storedData = localStorage.getItem(key);
+    
+    // 검색된 데이터가 존재하면 JSON.parse를 사용하여 객체로 변환하여 반환, 그렇지 않으면 빈 객체 반환
+    // ? 삼항 연산자 : 조건을 평가하여 참이면 첫번째  값 => JSON.parse(storedData) 반환,  거짓이면 두번째 값 => {} 반환
+    return storedData ? JSON.parse(storedData) : {};
+  }
+
+  // 예제 데이터
+  const user = {
+    name: 'Bang',
+    age: 28,
+    city: 'Daejeon'
+  };
+
+  // 데이터 저장
+  saveToLocalStorage('userData', user);
+
+  // 데이터 검색
+  const retrievedData = getFromLocalStorage('userData');
+
+  // 콘솔에 검색된 데이터 출력
+  console.log('검색된 데이터:', retrievedData); 
+</script>
+
+</body>
+</html>
